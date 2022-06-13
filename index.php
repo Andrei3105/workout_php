@@ -8,7 +8,7 @@ if(!empty($_POST)){
     $fields = load ($fields);
     debug($fields);
     if($errors = validate($fields)){
-        debug($errors);
+        debug($errors); 
     }else{
         echo "Ok";
     }
